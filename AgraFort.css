@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s linear 0s;
+}
+body{
+    background-color: #E3DBCB ;
+    color: #E3DBCB;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 6.25rem;
+    
+}
+.logo{
+    margin-left: 1.25rem;
+    background-image: url('SiteLogo.png');
+    background-size: contain;
+    width: 12.5rem;
+    height: 3.75rem;
+}
+.acc{
+
+    display: flex;
+    margin-right: 3.125rem;
+    width: 18.75rem;
+    height: 6.25rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.MyAccount,.Support{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.625rem;
+}
+.MyAccount:hover{
+    border-bottom: 0.25 solid #E3DBCB;
+}
+.Support:hover{
+    border-bottom: 0.25 solid #E3DBCB;
+}
+.userLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.125rem solid white;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.info{
+    margin: 3.125rem 4.375rem;
+    font-size: 1.25rem;
+    color: black;
+}
+.Information{
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 7%;
+    width: 37.5rem;
+    height: 3.75rem;
+    font-size: 2.813rem;
+}
+.Information:hover{
+    border-bottom: 0.25rem solid black;
+    font-size: 2.938rem;   
+}
+p{
+    margin: 0.625rem;
+    padding: 0.625rem;
+}
+img{
+    margin-left:  3.125rem;
+    margin-right: 3.125rem;
+    width: 90%;
+    height: 31.25rem;
+}
+.location{
+    font-size: 1.25rem;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-left: 7%;
+    margin-bottom: 0.625rem;
+    margin-top: 0.625rem;
+    width: 15rem;
+}
+.know-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5rem;
+    height: 3.125rem;
+    background-color: black;
+    color: #E3DBCB;
+    margin-left: 40%;
+    border-radius: 5%;
+}
+.navbar-bottom{
+    background-color: black;
+    color: #E3DBCB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 14.375rem;
+    margin-top: 0.625rem;
+}
+.logo-copyright{
+    display: flex ;
+    flex-direction: column;
+    height: 7.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.column{
+    display: flex;
+}
+.column1,.column2,.column3,.follow{
+    background-color: black;
+    color: #E3DBCB;
+    display: flex;
+    flex-direction: column; 
+    width: 13.75rem;
+}
+.footer-link{
+    font-size: larger;
+    margin-top: 1.563rem;
+    width: 13.75rem;
+    text-align: center;
+    font-weight: bolder;
+    color: #E3DBCB;
+}
+.icon{
+    display: flex;
+}
+.security{
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: black;
+    color: #E3DBCB;
+    padding-bottom: 1.25rem;
+}
+.white{
+    color: #E3DBCB;
+}

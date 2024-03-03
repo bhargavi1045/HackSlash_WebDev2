@@ -1,0 +1,274 @@
+
+*{
+    transition: all 0.3s linear 0s;
+}
+body{
+    background-color: black;
+    color: #E3DBCB;
+    
+}
+/* setting the properties for black navbar */
+.nav1{
+    
+    background-color: black;
+    color: #E3DBCB;
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    background-color: black;
+    background-image: url('SiteLogo.png');
+    background-size: cover;
+    height: 5rem;
+    width: 15.625rem;
+    border-radius: 2%;
+}
+.user{
+    width: 8.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.userLogo{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 0.125rem solid #E3DBCB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three{
+    display: flex;
+    width: 18.75rem;
+    height: 6.25rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Contribute,.LogIn,.SignUp{
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #E3DBCB;
+    width: 5rem;
+    height: 5.625rem;
+}
+.Contribute:hover{
+    border-bottom: 0.25rem solid #E3DBCB;
+}
+.LogIn:hover{
+    border-bottom: 0.25rem solid #E3DBCB;
+}
+.SignUp:hover{
+    border-bottom: 0.313rem solid #E3DBCB;
+}
+#SelectLang{
+    background-color: #E3DBCB;
+    border-radius: 5%;
+    width: 11.25rem;
+    height: 1.875rem;
+    font-size: 0.938rem;
+    text-align: center;
+    margin-right: 0rem;
+}
+/* setting the properties for beige navbar */
+.nav2{
+    
+    background-color: #E3DBCB;
+    color: black;
+    display: flex;
+    height: 2.5rem;
+    justify-content: flex-start;
+    align-items: center;  
+}
+.NavSearch{
+    margin: 0.313rem;
+    width: 18.75rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon{
+    background-color: black;
+    color: #E3DBCB;
+    display: flex;
+    width: 1.563rem;
+    height: 1.563rem;
+    justify-content: center;
+    align-items: center;
+}
+#search-input{
+    background-color: black;
+    color: #E3DBCB;
+    width: 12.5rem;
+    height: 1.25rem;
+}
+.NavFilter{
+    display: flex;
+    margin: 3.125rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.filter{
+    width: 3.125rem;
+    height: 1.563rem;
+    background-color: black;
+    color: #E3DBCB;
+}
+.filter-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.25rem;
+    width: 1.25rem;
+    border: 0.125rem solid black;
+}
+#main{
+    width: 100%;
+    height: 50rem;
+}
+.row1,.row2,.row3,.row4,.row5,.row6,.row7{
+    margin: 5rem 0rem;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 16.875rem;
+}
+.outer{
+    height: 16.875rem;
+    width: 15.625rem ;
+}
+.inner:hover{
+    height: 15.625rem;
+    width: 15.625rem;
+}
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 13.75rem;
+    width: 13.75rem;
+    
+}
+.img1{
+    background-image: url('AgraFort.jpg');
+}
+.img2{
+    background-image: url('AjantaCaves.jpg');
+}
+.img3{
+    background-image:url('TajMahal2.png') ;
+}
+.img4{
+    background-image: url('SunTemple2.jpg');
+}
+.img5{
+    background-image: url('KazirangaNationalPark.jpeg');
+}
+.img6{
+    background-image: url('RedFort2.jpeg');
+}
+.img7{
+    background-image: url('Sundarban2.jpg');
+}
+.img8{
+    background-image: url('MahabodhiTemple2.jpg');
+}
+.img9{
+    background-image: url('CSMT.jpg');
+}
+.img10{
+    background-image: url('ValleyofFlowers2.jpeg');
+}
+.img11{
+    background-image: url('Nalanda.jpg');
+}
+.img12{
+    background-image: url('QutubMinar.jpg');
+}
+.img13{
+    background-image: url('JantarMantar.jpg');
+}
+.img14{
+    background-image: url('Pattadakal.jpg');
+}
+.img15{
+    background-image: url('PinkCity2.jpg');
+}
+.img16{
+    background-image: url('HampiTemple.jpg');
+}
+.img{
+    background-size: cover;
+    height: 11.875rem;
+    width: 11.875rem;
+}
+.img:hover{
+    height: 13.125rem;
+    width: 13.125rem;
+}
+.link,.file{
+    font-size: larger;
+    margin-top: 1.563rem;
+    width: 13.75rem;
+    text-align: center;
+    font-weight: bolder;
+    color: #E3DBCB;
+}
+.navbar-bottom{
+    background-color: #E3DBCB;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 14.375rem;
+}
+.logo-copyright{
+    display: flex ;
+    flex-direction: column;
+    height: 7.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.column{
+    display: flex;
+}
+.column1,.column2,.column3,.follow{
+    background-color: #E3DBCB;
+    color: black;
+    display: flex;
+    flex-direction: column; 
+    width: 13.75rem;
+}
+.footer-link{
+    font-size: larger;
+    margin-top: 1.563rem;
+    width: 13.75rem;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+.icon{
+    display: flex;
+}
+.security{
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: #E3DBCB;
+    color: black;
+    padding-bottom: 1.25rem;
+}
+.black{
+    color: black;
+}
